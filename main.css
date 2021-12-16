@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: black;
+    background-image: url(/outer_space_2.jpeg);
+    background-position: center;
+}
+
+.space_form {
+    background-color: #f0f2f3;
+    height: 600px;
+    width: 500px;
+    padding: 10px 10px;
+    border-radius: 20%;
+    box-shadow: 12px 12px 10px 1px rgba(23, 23, 24, 0.2);
+    display: inline-block;
+    margin: 150px;
+}
+
+h1, h2 {
+    text-align: center;
+    text-shadow: 1px 1px#76cabf;
+}
+
+label {
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+.info, .age, .gender, input {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+button {
+    color: black;
+    width: 200px;
+    height: 25px;
+    background: none;
+    border: solid;
+    display: block;
+    margin: 15px auto;
+}
+
+button:hover {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgba(26, 135, 224, 0.918);
+    /* transform: translateY(-2px); */
+    transition: .25s;
+    box-shadow: 12px 5px 10px 2px rgba(110, 110, 199, 0.2);
+    cursor: pointer;
+}
